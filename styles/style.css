@@ -93,6 +93,7 @@ padding: 50px 50px 25px;
 .last{
     padding-bottom: 0px;
 }
+/* inspiration */
 .inspi{
     margin-top: 0px;
     margin-right: 15px;
@@ -103,4 +104,34 @@ padding: 50px 50px 25px;
 .yt{
     padding: 32px;
     text-align: center;
+}
+/* cardbox */
+.card-box{
+    width: 1031 px;
+    margin: 0 auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1050px;
+}
+.card{
+    padding-top: 20px;
+}
+.card-1{
+    /* padding-right: 15px; */
+    background-color: hsl(11, 89%, 96%);
+}
+.card-2{
+    background: #e6eeff;
+}
+.card-3{
+    background-color: #fff9d3;
+}
+.cc{
+    width: 295px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 12px;
+    border: none;
 }
