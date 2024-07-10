@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+  
+.container{
+    background-image: url('../assets/Hero-bg.png');    
+    height: 580px;
+    text-align: center;
+}
+.image{
+    padding-top: 40px;
+}
+
+.heading{
+    padding-top: 30px;
+}
+.para{
+    padding-top: 30px;
+}
+.btn-primary{
+    margin-top: 30px;
+}
