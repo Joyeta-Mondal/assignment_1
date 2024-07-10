@@ -41,14 +41,16 @@
 }
 /* main section */
 .container1{
-    text-align: center;
+padding: 50px;
 }
 .main{
-    margin: 60px 25px;
+    margin: 50px 25px;
 }
 .main-des{
-    margin-top: 60px;
-    padding: 30px 60px 30px;
+    margin-top:20px;
+    padding: 30px 120px 30px;
+    text-align: center;
+
 }
 .c1-h{
     font-size: 32px;
@@ -60,5 +62,27 @@
     padding: 0 30px;
 }
 .ads{
-    padding: 35px;
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.texts{
+    color: #0D1321;
+    max-width: 580px;
+    padding-right: 50px;
+}
+.head-ad{
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 20px
+}
+.para-ad{
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.img-ad{
+    max-width: 300px;
 }
