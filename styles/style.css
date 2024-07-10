@@ -8,29 +8,45 @@
   font-style: normal;
 }
 /* banner section */
-.common{
+/* .common{
     padding-top: 30px;
-}
+} */
+ .header-img{
+    margin: 0 auto 32px;
+    padding-top: 24px;
+    width: 240px;
+    height: 240px;
+ }
+ .header-img img{
+    width: 100%;
+ }
 .des{
     width: auto;
     align-items: center;
 }
 .container{
     background-image: url('../assets/Hero-bg.png');    
-    height: 620px;
     text-align: center;
+    margin-bottom: 74px;
+}
+.container-item{
+    width: 998px;
+    margin: 0 auto;
 }
 .heading{
     font-size: 45px;
     line-height: 68px;
+    margin-bottom: 24px;
 }
 .para{
+    margin-bottom: 32px;
     font-size: 16px;
     font-weight: 400;
 }
 .btn-primary{
     background-color: #0D1321;
     margin-top: 30px;
+    margin-bottom: 44px;
     color: #ffffff;
     font-weight:700;
     font-size: 20px;
@@ -41,71 +57,100 @@
 }
 /* main section */
 .container1{
-padding: 50px 50px 25px;
+    width: 1140px;
+    margin: 0 auto;
 }
 .main{
-    margin: 50px 25px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 0 auto;
 }
 .main-des{
-    margin-top:20px;
-    padding: 30px 120px 0 ;
+   
+    /* padding: 30px 120px 0 ; */
     text-align: center;
 
 }
 .c1-h{
     font-size: 32px;
-    padding-bottom: 20px;
+    margin: 0 144px 24px 144px;
 }
 .c1-p{
     font-size: 16px;
     font-weight:400;
-    padding: 20px 30px;
+    margin: 0 144px 48px 144px;
 }
 .ads{
-    margin: 25px;
-    padding: 25px;
+    padding: 48px 145px;
+    margin-bottom: 32px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .texts{
     color: #0D1321;
-    max-width: 580px;
-    padding-right: 50px;
+    width: 477px;
+    /* padding-right: 50px; */
 }
 .head-ad{
     font-size: 28px;
     font-weight: bold;
-    padding-bottom: 22px
+    padding-bottom: 16px
 }
 .para-ad{
     font-size: 16px;
     font-weight: normal;
-    padding-bottom: 22px;
+    padding-bottom: 32px;
 }
 .img-ad{
-    max-width: 300px;
+   width: 260px;
+   height: 217px;
+}
+.img-ad img{
+    width: 100%;
+    height: 100%;
 }
 .btn-ad{
     font-size: 20px;
-    padding: 12px 23px;
+    padding: 12px 20px;
+    cursor: pointer;
 }
 .last{
     padding-bottom: 0px;
 }
 /* inspiration */
-.inspi{
+#inspiration{
+width: 1140px;
+margin: 88px auto 149px;
+}
+
+/* .inspi{
     margin-top: 0px;
     margin-right: 15px;
 }
 .inspi-p{
     padding: 6px 15px 48px 15px;
-}
+} */
 .yt{
-    padding: 32px;
-    text-align: center;
+   display: flex;
+   justify-content: center;
+   padding: 32px;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
 }
 /* cardbox */
+#target{
+    width: 1140px;
+    margin: 0 auto;
+}
+.card-img{
+    height: 56px;
+    width: 56px;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+}
 .card-box{
     width: 1031 px;
     margin: 0 auto;
@@ -131,7 +176,17 @@ padding: 50px 50px 25px;
 .cc{
     width: 295px;
     padding: 20px;
+}
+/* support */
+.sup{
+    background-image: url('../assets/handshake.jpg');
+    text-align: center;
+    height: 313px;
+    width: 1140px;
+    margin: 0 auto;
+}
+.common2{
     border: 1px solid white;
-    border-radius: 12px;
     border: none;
+    border-radius: 16px;
 }
